@@ -2,7 +2,7 @@ require("dotenv").config();
 const TelegramBot = require("node-telegram-bot-api");
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
-const CHANNEL_ID = "-1003974352666";
+const CHANNEL_ID = "-1003844584027";
 const PORT = process.env.PORT || 3000;
 
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
@@ -24,7 +24,7 @@ const BOT1 = {
 
   // 👇 AMOUNT SETTINGS
   firstAmount: "0.1",
-  secondAmount: "5",
+  secondAmount: "18",
 
   // 👇 TIME SETTINGS
   runTimeGapMin: 60,    // Run Time Minimum Gap (seconds)
@@ -126,7 +126,7 @@ function buildMessage1(userId, amount, runTime, trackTime) {
   return (
 `<b>Conversation Count 💝</b>
 
-<b>🎁 Offer Name - PolicyBazar</b>
+<b>🎁 Offer Name - Kuku Tv</b>
 
 <b>User Id : ${userId}</b>
 <b>User Amount : ₹${amount}</b>
@@ -135,7 +135,7 @@ function buildMessage1(userId, amount, runTime, trackTime) {
 <b>Run Time - ${runTime}</b>
 <b>Track Time - ${trackTime}</b>
 
-<b>Powered By - CashFlix</b>`
+<b>Powered By - CashyFy</b>`
   );
 }
 
