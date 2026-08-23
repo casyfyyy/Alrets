@@ -20,11 +20,11 @@ const BOT1 = {
   messageCount2: 0,
   firstMsg: true,
   secondMsg: true,
-  messagesPerMinute: 3,
+  messagesPerMinute: 1,
 
   // 👇 AMOUNT SETTINGS
   firstAmount: "0.1",
-  secondAmount: "18",
+  secondAmount: "22",
 
   // 👇 TIME SETTINGS
   runTimeGapMin: 60,    // Run Time Minimum Gap (seconds)
