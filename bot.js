@@ -24,7 +24,7 @@ const BOT1 = {
 
   // 👇 AMOUNT SETTINGS
   firstAmount: "0.1",
-  secondAmount: "22",
+  secondAmount: "20",
 
   // 👇 TIME SETTINGS
   runTimeGapMin: 60,    // Run Time Minimum Gap (seconds)
