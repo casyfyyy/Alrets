@@ -126,7 +126,7 @@ function buildMessage1(userId, amount, runTime, trackTime) {
   return (
 `<b>Conversation Count 💝</b>
 
-<b>🎁 Offer Name - Roamiyo</b>
+<b>🎁 Offer Name - Story Tv</b>
 
 <b>User Id : ${userId}</b>
 <b>User Amount : ₹${amount}</b>
